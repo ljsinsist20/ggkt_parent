@@ -32,5 +32,22 @@
 <!--            <version> 5.1.10</version>-->
 <!--            <scope>runtime</scope>-->
 <!--        </dependency>-->
+            <!-- 腾讯云COS依赖 -->
+        <dependency>
+            <groupId>com.qcloud</groupId>
+            <artifactId>cos_api</artifactId>
+            <version>5.6.89</version>
+            <exclusions>
+                <exclusion>
+                    <groupId>com.tencentcloudapi</groupId>
+                    <artifactId>tencentcloud-sdk-java-kms</artifactId>
+                </exclusion>
+            </exclusions>
+        </dependency>
+        <!-- 日期工具栏依赖 -->
+        <dependency>
+            <groupId>joda-time</groupId>
+            <artifactId>joda-time</artifactId>
+        </dependency>
     </dependencies>
 </project>
