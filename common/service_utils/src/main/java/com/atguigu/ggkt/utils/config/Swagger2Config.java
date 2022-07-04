@@ -1,4 +1,4 @@
-package com.atguigu.ggkt.config;
+package com.atguigu.ggkt.utils.config;
 
 import org.springframework.context.annotation.Bean;
 import org.springframework.context.annotation.Configuration;
